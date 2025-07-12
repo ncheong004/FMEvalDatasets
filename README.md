@@ -7,10 +7,10 @@ The *FMEvalDatasets* dataset is a structured, high-quality benchmark designed to
 
 * **Multi-Asset Coverage**:
 
-  * Equities (individual stocks, indices)
-  * Fixed Income (government and corporate bond yields)
-  * Commodities (e.g., oil, gold, agricultural)
-  * Foreign Exchange (major and minor currency pairs)
+  * MSCI Country Indices (11 Countrys covering Emerging and Developed Markets)
+  * Fixed Income (7 government bond yields of US, Japan, Euro Bund and UK Gilts)
+  * REITs (6 REITs covering US, China and the Middle East)
+  * Foreign Exchange (major and minor currency pairs -- G7 and 14 Emerging Market FX Pairs) 
 
 * **Rich Temporal Span**:
 
