@@ -1,0 +1,12 @@
+task_dataset:
+  Forecast_AssetPrices:
+    task_name: forecasting
+    dataset: AssetPrices
+    data: UEA
+    embed: timeF
+    root_path: ./Rates/ts  # Path to your newdata_TRAIN.ts and newdata_TEST.ts
+    seq_len: 30        # Length of input sequence
+    label_len: 0
+    pred_len: 1        # Length of prediction (horizon)
+    enc_in: 1          # Number of input variables (univariate)
+    c_out: 1
